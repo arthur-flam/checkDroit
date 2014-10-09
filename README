@@ -1,0 +1,30 @@
+# droitChecker #
+Il ne faudrait pas savoir en retard !
+
+## installation ##
+
+From source
+```
+wget https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-1.9.7-source.zip
+unzip phantomjs-1.9.7-source.zip
+cd phantomjs-1.9.7-source
+./build.sh
+make
+# y
+sudo make install
+```
+
+With a precompiled binary
+```
+wget https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-1.9.7-linux-x86_64.tar.bz2
+tar -jxvf phantomjs-1.9.7-linux-x86_64.tar.bz2
+sudo mv phantomjs-1.9.7-linux-x86_64 /opt/
+ln -s /opt/phantomjs-1.9.7-linux-x86_64/bin/phantomjs /usr/bin/phantomjs
+```
+
+Install dependencies:
+```
+sudo apt-get install libicu48
+sudo apt-get install phantomjs
+npm install
+```

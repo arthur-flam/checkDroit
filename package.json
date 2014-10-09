@@ -13,6 +13,8 @@
   "author": "Arthur Flam",
   "license": "private",
   "dependencies": {
-    "nightmare": "^1.1.0"
+    "nightmare": "^1.1.0",
+    "phantomjs": "^1.9.10",
+    "prompt": "~0.2.14"
   }
 }
